@@ -1,0 +1,17 @@
+/* 
+#FA6D37
+#FAAE37
+#FA9038
+#FA4A37
+#FAC637
+#FABD8A
+ */
+body{
+    background-color: #FA4A37;
+}
+ @media screen and (max-width: 767px) and (orientation: portrait){
+
+}
+@media screen and (min-width:768px) and (orientation: landscape){
+
+}
