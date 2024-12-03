@@ -38,14 +38,26 @@ section{
     margin: 2px;
 }
 footer{
-    position: absolute;
+    position: fixed;
+    
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: space-around;
 }
 footer > section{
     border-radius: 0;
+}
+.bolder{
+    font-weight: bolder;
+    color: rgb(51, 1, 1)
+}
+a{
+    color: #560b02;
+}
+.sizematch{
+    flex-grow: 1;
 }
  @media screen and (max-width: 767px){
     body{
@@ -88,6 +100,12 @@ footer > section{
         display: flex;
         justify-content: space-around;
     }
+    .McNasty{
+
+        width: 180px;
+        height: 180px;
+
+    }
 
 }
 @media screen and (min-width:768px){
@@ -96,6 +114,11 @@ footer > section{
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%235a0000' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%236d0000' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23810000' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23970000' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23AD0000' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
         background-attachment: fixed;
         background-size: cover;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .first{
         width: 90px;
@@ -130,8 +153,15 @@ footer > section{
         display: flex;
         justify-content: space-around;
     }
+    .McNasty{
+        position: absolute;
+        bottom: 10%;
+        width: 250px;
+        height: 260px;
+        left: 42%;
+    }
 }
 .paragraph{
-    max-width: 80%;
-
+    max-width: 100%;
+    margin: 10px;
 }
