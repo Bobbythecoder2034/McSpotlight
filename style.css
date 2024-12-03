@@ -19,11 +19,11 @@ nav{
     padding: 12px;
     margin: 2px;
     width: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-evenly;
 
+
+}
+hr{
+    border-color: #560b02;
 }
 
 div{
@@ -96,6 +96,39 @@ footer > section{
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%235a0000' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%236d0000' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23810000' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23970000' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23AD0000' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
         background-attachment: fixed;
         background-size: cover;
+    }
+    .first{
+        width: 90px;
+    }
+    .second{
+        width: 190px;
+    }
+    .third{
+        width: 90px;
+    }
+    .footerimages{
+        display: flex;
+        justify-content: center;
+    }
+    .rightside{
+        display: flex;
+        align-items: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 150px;
+
+    }
+    .leftside{
+        display: flex;
+        align-items: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 130px;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: space-around;
     }
 }
 .paragraph{
